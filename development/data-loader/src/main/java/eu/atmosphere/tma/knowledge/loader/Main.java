@@ -127,7 +127,7 @@ public class Main {
 
         try {
             LOGGER.trace("Opening connection");
-            Connection conn = DriverManager.getConnection(DB_URL, "root", "passtobereplaced");
+            Connection conn = DriverManager.getConnection(DB_URL, "root", "tmak21");
             LOGGER.debug("Connection opened");
 
             LOGGER.trace("Preparing mysql statement");
